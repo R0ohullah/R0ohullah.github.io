@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+IQRA NATIONAL UNIVERSITY
+
+Web Engineering Assignment NAME: IHTISHAM UL HAQ
+STUDENT ID: 18450 DEPARTMENT: BS-SE SEMESTER: 6TH
+
+Question: Use XML types to create a branch that includes data about a student, e.g.; -
+First name - Last name - id etc.
+ 
+XML (Internal) Code:
+
+<?xml version="1.0" encoding="utf-7"?>
+<!DOCTYPE studentINU [
+
+
+
+<!ELEMENT studentINU (fname, lname, id, eyeCol, skinCol, height, hobbies)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT eyeCol (#PCDATA)>
+<!ELEMENT skinCol (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+]>
+<student>
+<fname>Muzammil.</fname>
+<lname>Ahmed.</lname>
+<id>16941.</id>
+<eyeCol>Brown.</eyeCol>
+<skinCol>light brown.</skinCol>
+<height>5’11.</height>
+<hobbies>
+Likes to play football and shopping and spend time with my Friends.
+ 
+</hobbies>
+</student>
+
+
+XML (External) Code:
+
+
+
+DTD File Code:
+
+
+
+<!ELEMENT studentINU (fname, lname, id, eyeCol, skinCol, height, hobbies)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT eyeCol (#PCDATA)>
+<!ELEMENT skinCol (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+]>
+
+
+
+
+
+- XML EXTERNAL STARTS FROM HERE -
+
+
+
+<?xml version="1.0" encoding="utf-7"?>
+<!DOCTYPE studentINU SYSTEM "studentINU.dtd">
+ 
+<studentINU>
+<fname>Muzammil.</fname>
+<lname>Ahmed.</lname>
+<id>16941.</id>
+<eyeCol>Brown.</eyeCol>
+<skinCol>light brown.</skinCol>
+<height>5’11.</height>
+<hobbies>
+Likes to play football and shopping and spend time with my Friends.
+</hobbies>
+
+
+
+</student>
