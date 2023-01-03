@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GF-kareemshah>
+<uncle type="saleem">
+<cousin>amjad</cousin> <sex>male</sex> <age>30</age> <cousin>enzomam</cousin> <sex>male</sex> <age>25</age> <cousin>sulemen</cousin> <sex>male</sex> <age>22</age>
+</uncle>
+<father type="khursheed"> <bro>inzimam</bro>
+<sex>male</sex> <age>15</age> <myself>ithisham</myself> <sex>male</sex> <age>22</age>
+</father>
+<uncle type="niqab"> <cousin>jalad</cousin> <sex>male</sex> <age>19</age> <cousin>jamal</cousin> <sex>male</sex> <age>23</age>
+</uncle>
+</GF-kareemshah>
